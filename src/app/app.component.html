@@ -1,1 +1,15 @@
-<h1>Hello world</h1>
+<h1>{{ title }}</h1>
+<button [disabled]="buttonDisabled">Click me</button>
+<h1 *ngIf="paragraphVisible">I am visible</h1>
+<button (click)="toggleParagraph()">Show paragraph</button>
+<br />
+<label>
+  My input:
+  <input type="text" [(ngModel)]="myInputValue" />
+</label>
+<h1>{{ myInputValue }}</h1>
+<li *ngFor="let number of myListOfNumbers; let i = index">
+  My index is {{ i }} and my value is {{ number }}
+</li>
+<li *ngFor="let char of myListOfAlphabets">{{ char }}</li>
+<p [ngStyle]="{color: paragraphVisible ? 'blue': 'transparent'}">Apple</p>

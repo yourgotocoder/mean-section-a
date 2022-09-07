@@ -6,5 +6,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'my-app';
+  title: string = 'Hello World';
+  buttonDisabled: boolean = false;
+  paragraphVisible: boolean = true;
+  myInputValue: string = '';
+
+  myListOfNumbers: number[] = [5, 4, 3 ,2, 1];
+  myListOfAlphabets: string[] = ['a', 'b', 'c'];
+
+  toggleParagraph = () => {
+    this.paragraphVisible = !this.paragraphVisible;
+  }
 }
