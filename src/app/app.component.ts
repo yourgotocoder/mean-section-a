@@ -7,4 +7,16 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 
+  //    Use click events to get input data
+
+  result: number = 110;
+  currentInput: string | undefined;
+  currentOperation: string | undefined;
+
+  inputTracker: string[] = ["23", "+", "2", "-", "3", "*", "5"];
+
+  getInputData = (): string => {
+    return this.inputTracker.join('')
+  }
+
 }
