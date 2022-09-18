@@ -19,4 +19,17 @@ export class AppComponent {
     return this.inputTracker.join('')
   }
 
+  setCurrentInput = (value: string) => {
+
+  }
+
+  setCurrentOperation = (operation: string) => {
+    
+  }
+
+  setResult = (): number => {
+
+    return 0
+  }
+
 }
