@@ -12,7 +12,15 @@ export class AppComponent {
   currentInput: string | undefined;
   currentOperation: string | undefined;
 
-  inputTracker: string[] = ['23', '+', '2', '-', '3', '*', '5'];
+  inputTracker: string[] = [
+    '23',
+    '+',
+    '2',
+    '-',
+    '3',
+    '*',
+    '5',
+  ];
 
   getInputData = (): string => {
     return this.inputTracker.join('');
@@ -23,6 +31,7 @@ export class AppComponent {
   setCurrentOperation = (operation: string) => {};
 
   setResult = (): number => {
+    //You can loop over the input tracker array and recompute the result as the values in the array changes
     return this.result;
   };
 }
