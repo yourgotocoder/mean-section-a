@@ -33,6 +33,7 @@ export class AppComponent {
   setResult = (): number => {
     //You can loop over the input tracker array and recompute the result as the values in the array changes
     //String to number to do mathematical computations
+    //Find a method to check if a string can be converted into a number
     return this.result;
   };
 }
