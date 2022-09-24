@@ -1,0 +1,45 @@
+.todo-list {
+  min-height: 400px;
+  min-width: 400px;
+  margin-top: 1rem;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.todo-list-actions {
+  margin-bottom: 5px;
+  padding: 5px 2px;
+  display: flex;
+  gap: 1rem;
+}
+
+.todo-item {
+  margin: 0 auto;
+  padding: 5px;
+  min-height: 24px;
+  border: 1px solid rgb(143, 145, 144);
+  display: grid;
+  grid-template-columns: 3fr 2fr 1fr 1fr;
+}
+
+.todo-item:hover {
+  height: 30px;
+  font-size: 1.2rem;
+}
+
+.todo-item button {
+  width: 60px
+}
+
+.todo-item button:hover {
+  cursor: pointer;
+}
+
+.todo-item-status {
+  padding-left: 3px;
+  font-size: 16px;
+}
+
+.todo-item-select-status {
+  font-size: 12px;
+}

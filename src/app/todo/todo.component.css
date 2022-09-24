@@ -1,0 +1,8 @@
+.todo-main {
+  width: 500px;
+  margin: 0 auto;
+  position: absolute;
+  top:30%;
+  left: 50%;
+  transform: translateX(-50%);
+}
