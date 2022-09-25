@@ -1,6 +1,6 @@
 # Challenge
 
-Your challenge is to fork this repo to your repo, download it your system and then write the code required to make the todo app functional.
+Your challenge is to fork this repo to your repo, download it your system and then write the code required to make the todo app functional. After the app is functional, push it to your repo and create a pull request to [my repo](https://github.com/yourgotocoder/mean-section-a).
 
 ## Forking this repo
 
@@ -18,5 +18,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 
 Run `ng generate component component-name` to generate a new component.
 
+## Winning criteria
 
+The first person whose pull 
 
