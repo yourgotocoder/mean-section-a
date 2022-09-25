@@ -1,10 +1,14 @@
-# MyApp
+# Challenge
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.1.
+Your challenge is to fork this repo to your repo, download it your system and then write the code required to make the todo app functional.
+
+## Forking this repo
+
+You can find a button on the right side to fork this repo to your github account. 
 
 ## After fork
 
-Download the project to your local system, open the folder in a new VS Code instance, then execute `npm install`
+From your profile download the project to your local system, open the folder in a new VS Code instance, then execute `npm install` in the terminal
 
 ## Development server
 
@@ -16,6 +20,3 @@ Run `ng generate component component-name` to generate a new component.
 
 
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
