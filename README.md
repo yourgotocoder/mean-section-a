@@ -1,6 +1,6 @@
 # Challenge
 
-Your challenge is to fork this repo to your repo, download it your system and then write the code required to make the todo app functional. After the app is functional, push it to your repo and create a pull request to [my repo](https://github.com/yourgotocoder/mean-section-a).
+Your challenge is to fork this repo to your repo, download it to your system and then write the code required to make the todo app functional. After the app is functional, push it to your repo and create a pull request to [my repo](https://github.com/yourgotocoder/mean-section-a).
 
 ## Forking this repo
 
@@ -20,5 +20,6 @@ Run `ng generate component component-name` to generate a new component.
 
 ## Winning criteria
 
-The first person whose pull 
+In case there are multiple pull requests with multiple working solutions, the first person who created a pull request will be declared the winner.
+The first person whose pull request gets **accepted** wins. 
 
