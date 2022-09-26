@@ -23,8 +23,8 @@
 }
 
 .todo-item:hover {
-  height: 30px;
-  font-size: 1.2rem;
+  height: 40px;
+  font-size: 1.1rem;
 }
 
 .todo-item button {
@@ -42,4 +42,18 @@
 
 .todo-item-select-status {
   font-size: 12px;
+}
+
+.todo-item-title {
+  display: flex;
+  flex-direction: column;
+}
+
+.todo-item-date {
+  font-size: 0.7rem;
+  color: rgb(79, 80, 79)
+}
+
+.todo-item-delete {
+  height: 26px;
 }
