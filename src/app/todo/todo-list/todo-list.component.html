@@ -3,7 +3,7 @@
   <div class="todo-list-actions">
     <div>
       <label for="status">Show {{ " " }}</label>
-      <select name="status" id="status">
+      <select name="status" id="status" (change)="setViewByStatus($event)">
         <option value="all">All</option>
         <option value="done">Done</option>
         <option value="pending">Pending</option>
@@ -13,7 +13,7 @@
 
     <div>
       <label for="status">Sort By {{ " " }}</label>
-      <select name="status" id="status">
+      <select name="status" id="status" (change)="setViewByLatest($event)">
         <option value="latest">Latest</option>
         <option value="oldest">Oldest</option>
       </select>
@@ -21,7 +21,7 @@
   </div>
 
   <!-- Display items -->
-  <div *ngFor="let todoItem of dummyData" class="todo-item">
+  <div *ngFor="let todoItem of getTodoList();let indexOfItem = index" class="todo-item">
     <div class="todo-item-title">
       {{ todoItem.title }}
       <span class="todo-item-date"
@@ -34,13 +34,13 @@
     <div class="todo-item-select-status">
       <label for="status">Status</label>
       <br />
-      <select name="status" id="status">
+      <select name="status" id="status" (change)="changeItemStatus($event, indexOfItem)" [value]="todoItem.status">
         <option value="done">Done</option>
         <option value="pending">Pending</option>
         <option value="on-going">On-Going</option>
       </select>
     </div>
-    <button class="todo-item-delete">Delete</button>
+    <button class="todo-item-delete" (click)="deleteItem(indexOfItem)">Delete</button>
     <span class="todo-item-status">{{ todoItem.status }}</span>
   </div>
 </div>

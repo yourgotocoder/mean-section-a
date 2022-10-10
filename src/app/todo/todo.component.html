@@ -1,4 +1,8 @@
 <div class="todo-main">
-  <app-todo-add></app-todo-add>
-  <app-todo-list></app-todo-list>
+  <app-todo-add (todoAddEvent)="addToTodo($event)"></app-todo-add>
+  <app-todo-list
+    [todoList]="todoList"
+    (deleteTodoItemEvent)="deleteTodoItemHandler($event)"
+    (changeTodoItemStatusEvent)="changeTodoItemStatusHandler($event)"
+  ></app-todo-list>
 </div>

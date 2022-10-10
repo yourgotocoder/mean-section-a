@@ -1,8 +1,8 @@
 <div class="todo-add-item">
   <div>
-    <input type="text" id="todo-input" placeholder="Todo Item">
+    <input type="text" id="todo-input" placeholder="Todo Item" [(ngModel)]="todoItemValue">
   </div>
   <div>
-    <button>Add To List</button>
+    <button (click)="addTodoHandler()">Add To List</button>
   </div>
 </div>
