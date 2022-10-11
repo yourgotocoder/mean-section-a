@@ -58,7 +58,6 @@ export class TodoListComponent implements OnInit {
     this.changeTodoItemStatusEvent.emit({ status: statusValue as TodoStatus, index})
   };
 
-  sortItemsByDate = (list: Todo[]) => {};
 
   setViewByStatus = (event: Event) => {
     this.show = (event.target as HTMLSelectElement).value;
